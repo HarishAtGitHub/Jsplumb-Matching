@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head>
+		<title>jsPlumb 1.3.11 - draggable connectors experiments - jQuery</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<link rel="stylesheet" href="css/jsPlumbDemo.css">
+		<link rel="stylesheet" href="css/draggableConnectorsDemo.css">
+	</head>
+	<body>
+		<button style="position: fixed;top: 5%;right: 5%;z-index: 999;" id="saveButton">Save</button>
+
+		<div id="demo" >
+                <table cellspacing = "150px">
+		<tr>
+		<td valign="top" >
+			
+                        
+                                 
+			<div class="window" id="window0"><li class="item1">Tracker information 1</li></br></div>
+			
+
+
+	         </td>			
+		 <td valign="top">
+			
+ 			<div class="window" id="flow0" ><li class="flow1">Flow 1</li></br></div>
+ 			
+		</td>
+                </tr>
+			</table>
+			
+			
+		</div>
+		<div id ="demo2" style="position:absolute;top:10% ;left:50%">
+			
+		</div>
+	       
+		
+
+		<!-- DEP -->
+	    <script type="text/javascript" src="js/lib/jquery-1.7.1-min.js"></script>
+		<script type="text/javascript" src="js/lib/jquery-ui-1.8.13-min.js"></script>
+		<!-- /DEP -->
+		
+		<!-- JS -->
+		<!-- support lib for bezier stuff -->
+		<script type="text/javascript" src="js/lib/jsBezier-0.4-min.js"></script>
+		<!-- jsplumb util -->
+		<script type="text/javascript" src="js/1.3.11/jsPlumb-util-1.3.11-RC1.js"></script>
+		<!-- main jsplumb engine -->
+		<script type="text/javascript" src="js/1.3.11/jsPlumb-1.3.11-RC1.js"></script>
+		<!-- connectors, endpoint and overlays  -->
+		<script type="text/javascript" src="js/1.3.11/jsPlumb-defaults-1.3.11-RC1.js"></script>
+		<!-- SVG renderer -->
+		<script type="text/javascript" src="js/1.3.11/jsPlumb-renderers-svg-1.3.11-RC1.js"></script>
+		<!-- canvas renderer -->
+		<script type="text/javascript" src="js/1.3.11/jsPlumb-renderers-canvas-1.3.11-RC1.js"></script>
+		<!-- vml renderer -->
+		<script type="text/javascript" src="js/1.3.11/jsPlumb-renderers-vml-1.3.11-RC1.js"></script>
+		<!-- jquery jsPlumb adapter -->
+		<script type="text/javascript" src="js/1.3.11/jquery.jsPlumb-1.3.11-RC1.js"></script>
+		<!-- /JS -->
+		
+		<!--  demo code -->
+		<script type="text/javascript" src="js/draggableConnectorsDemo.js"></script>
+		<script type="text/javascript" src="js/draggableConnectorsDemo-jquery.js"></script>
+		
+		<!--  demo helper code -->
+		<script type="text/javascript" src="js/demo-list.js"></script>
+		<script type="text/javascript" src="js/demo-helper-jquery.js"></script>
+		<!-- harish.js should come after draggableConnectorsDemo.js -->
+		<script type="text/javascript" src="js/harish.js"></script>
+		
+		 
+	</body>
+</html>
